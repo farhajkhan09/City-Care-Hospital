@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors - CityCare Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span><i class="fas fa-phone-alt me-2"></i> Emergency: 108</span>
+                    <span class="ms-3"><i class="fas fa-envelope me-2"></i> info@citycarehospital.com</span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="care.jpg" alt="CityCare Hospital" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="departmentsDropdown" role="button" data-bs-toggle="dropdown">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cardiology.html">Cardiology</a></li>
+                            <li><a class="dropdown-item" href="orthopedics.html">Orthopedics</a></li>
+                            <li><a class="dropdown-item" href="pediatrics.html">Pediatrics</a></li>
+                            <li><a class="dropdown-item" href="neurology.html">Neurology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="doctors.html">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="appointment.html" class="btn btn-primary ms-lg-3">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Doctors Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Our Specialist Doctors</h2>
+                <p class="lead">Meet our team of highly qualified medical professionals</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 1.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Sharma" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Rajesh Sharma</h3>
+                            <p class="text-primary mb-2">Cardiologist</p>
+                            <p class="text-muted small">MD, DM Cardiology</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Mon-Fri: 9AM-5PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 2.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Patel" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Priya Patel</h3>
+                            <p class="text-primary mb-2">Orthopedic Surgeon</p>
+                            <p class="text-muted small">MS Orthopedics</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Mon-Sat: 10AM-4PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 3.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Gupta" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Amit Gupta</h3>
+                            <p class="text-primary mb-2">Pediatrician</p>
+                            <p class="text-muted small">MD Pediatrics</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Tue-Sat: 11AM-6PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 4.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Khan" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Sameer Khan</h3>
+                            <p class="text-primary mb-2">Neurologist</p>
+                            <p class="text-muted small">DM Neurology</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Mon-Fri: 8AM-3PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">CityCare Hospital</h5>
+                    <p>Providing quality healthcare services since 1990 with compassion and excellence.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="departments.html" class="text-white">Departments</a></li>
+                        <li class="mb-2"><a href="doctors.html" class="text-white">Doctors</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Departments</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="cardiology.html" class="text-white">Cardiology</a></li>
+                        <li class="mb-2"><a href="orthopedics.html" class="text-white">Orthopedics</a></li>
+                        <li class="mb-2"><a href="pediatrics.html" class="text-white">Pediatrics</a></li>
+                        <li class="mb-2"><a href="neurology.html" class="text-white">Neurology</a></li>
+                        <li class="mb-2"><a href="departments.html" class="text-white">View All</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-3"></i> 123 Health Street, Medical City</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-3"></i> +91 80 1234 5678</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-3"></i> info@citycarehospital.com</li>
+                        <li class="mb-2"><i class="fas fa-ambulance me-3"></i> Emergency: 108</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">© 2025 CityCare Hospital. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by CityCare Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

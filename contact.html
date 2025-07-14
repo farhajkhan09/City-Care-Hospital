@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CityCare Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span><i class="fas fa-phone-alt me-2"></i> Emergency: 108</span>
+                    <span class="ms-3"><i class="fas fa-envelope me-2"></i> info@citycarehospital.com</span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="care.jpg" alt="CityCare Hospital" height="50">
+            </a>o.png
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="departments.html" id="departmentsDropdown" role="button" data-bs-toggle="dropdown">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cardiology.html">Cardiology</a></li>
+                            <li><a class="dropdown-item" href="orthopedics.html">Orthopedics</a></li>
+                            <li><a class="dropdown-item" href="pediatrics.html">Pediatrics</a></li>
+                            <li><a class="dropdown-item" href="neurology.html">Neurology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="doctors.html">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="appointment.html" class="btn btn-primary ms-lg-3">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Contact Us</h2>
+                <p class="lead">We are here to assist you. Reach out to us for any inquiries.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h3 class="text-primary mb-4">Get in Touch</h3>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="text-primary mb-4">Contact Information</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="fas fa-map-marker-alt me-3 text-primary"></i> 123 Health Street, Medical City</li>
+                        <li class="mb-3"><i class="fas fa-phone-alt me-3 text-primary"></i> +91 80 1234 5678</li>
+                        <li class="mb-3"><i class="fas fa-envelope me-3 text-primary"></i> info@citycarehospital.com</li>
+                        <li class="mb-3"><i class="fas fa-ambulance me-3 text-primary"></i> Emergency: 108</li>
+                    </ul>
+                    <div class="mt-4">
+                        <h5 class="mb-3">Follow Us</h5>
+                        <a href="#" class="text-primary me-3"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="#" class="text-primary me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#" class="text-primary me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-primary"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">CityCare Hospital</h5>
+                    <p>Providing quality healthcare services since 1990 with compassion and excellence.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="departments.html" class="text-white">Departments</a></li>
+                        <li class="mb-2"><a href="doctors.html" class="text-white">Doctors</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Departments</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="cardiology.html" class="text-white">Cardiology</a></li>
+                        <li class="mb-2"><a href="orthopedics.html" class="text-white">Orthopedics</a></li>
+                        <li class="mb-2"><a href="pediatrics.html" class="text-white">Pediatrics</a></li>
+                        <li class="mb-2"><a href="neurology.html" class="text-white">Neurology</a></li>
+                        <li class="mb-2"><a href="departments.html" class="text-white">View All</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-3"></i> 123 Health Street, Medical City</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-3"></i> +91 80 1234 5678</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-3"></i> info@citycarehospital.com</li>
+                        <li class="mb-2"><i class="fas fa-ambulance me-3"></i> Emergency: 108</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">© 2025 CityCare Hospital. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by CityCare Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

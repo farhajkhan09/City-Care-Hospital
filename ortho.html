@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orthopedics Department - CityCare Hospital</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="shared.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-primary text-white py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span><i class="fas fa-phone-alt me-2"></i> Emergency: 108</span>
+                    <span class="ms-3"><i class="fas fa-envelope me-2"></i> info@citycarehospital.com</span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="care.jpg" alt="CityCare Hospital" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="departments.html" id="departmentsDropdown"
+                            role="button" data-bs-toggle="dropdown">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cardiology.html">Cardiology</a></li>
+                            <li><a class="dropdown-item active" href="orthopedics.html">Orthopedics</a></li>
+                            <li><a class="dropdown-item" href="pediatrics.html">Pediatrics</a></li>
+                            <li><a class="dropdown-item" href="neurology.html">Neurology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="doctors.html">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="appointment.html" class="btn btn-primary ms-lg-3">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Department Hero Banner -->
+    <div class="department-hero orthopedics-hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold text-white mb-4">Orthopedics Department</h1>
+                    <p class="lead text-white mb-4">Expert care for bones, joints, and musculoskeletal health.</p>
+                    <div class="d-flex gap-3">
+                        <a href="appointment.html" class="btn btn-light btn-lg">Book Appointment</a>
+                        <a href="#contact-ortho" class="btn btn-outline-light btn-lg">Contact Department</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Department Overview -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="department 2.jpeg" alt="Orthopedics Department" class="img-fluid rounded shadow" height="8000" width="1000">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="text-primary mb-3">Advanced Orthopedic Care</h2>
+                    <p>Our Orthopedics Department specializes in the diagnosis, treatment, and rehabilitation of disorders of the musculoskeletal system. We provide comprehensive care for injuries and conditions affecting bones, joints, ligaments, tendons, muscles, and nerves.</p>
+                    <p>With our team of highly skilled orthopedic surgeons and state-of-the-art facilities, we offer both surgical and non-surgical treatments tailored to each patient's needs.</p>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box bg-primary text-white me-3">
+                                    <i class="fas fa-bone"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h6 mb-0">Joint Replacement</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box bg-primary text-white me-3">
+                                    <i class="fas fa-wheelchair"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h6 mb-0">Sports Medicine</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box bg-primary text-white me-3">
+                                    <i class="fas fa-user-md"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h6 mb-0">12+ Surgeons</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box bg-primary text-white me-3">
+                                    <i class="fas fa-procedures"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h6 mb-0">40+ Beds</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Our Orthopedic Services</h2>
+                <p class="lead">Comprehensive care for musculoskeletal conditions</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="icon-box bg-primary text-white mb-4">
+                                <i class="fas fa-bone"></i>
+                            </div>
+                            <h3 class="h5">Joint Replacement</h3>
+                            <ul class="mb-0">
+                                <li>Hip Replacement</li>
+                                <li>Knee Replacement</li>
+                                <li>Shoulder Replacement</li>
+                                <li>Revision Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="icon-box bg-primary text-white mb-4">
+                                <i class="fas fa-running"></i>
+                            </div>
+                            <h3 class="h5">Sports Medicine</h3>
+                            <ul class="mb-0">
+                                <li>ACL Reconstruction</li>
+                                <li>Arthroscopic Surgery</li>
+                                <li>Cartilage Restoration</li>
+                                <li>Sports Injury Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card service-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="icon-box bg-primary text-white mb-4">
+                                <i class="fas fa-spine"></i>
+                            </div>
+                            <h3 class="h5">Spine Care</h3>
+                            <ul class="mb-0">
+                                <li>Spinal Fusion</li>
+                                <li>Discectomy</li>
+                                <li>Scoliosis Treatment</li>
+                                <li>Minimally Invasive Spine Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Orthopedic Doctors -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Our Orthopedic Specialists</h2>
+                <p class="lead">Meet our team of experienced orthopedic surgeons</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 1.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Patel"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Priya Patel</h3>
+                            <p class="text-primary mb-2">Joint Replacement Specialist</p>
+                            <p class="text-muted small">MS Orthopedics</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Mon-Sat: 10AM-4PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 2.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Kumar"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Arjun Kumar</h3>
+                            <p class="text-primary mb-2">Sports Medicine Specialist</p>
+                            <p class="text-muted small">MS Orthopedics</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Tue-Sat: 9AM-5PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 3.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Iyer"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Nalini Iyer</h3>
+                            <p class="text-primary mb-2">Spine Surgeon</p>
+                            <p class="text-muted small">MCh Orthopedics</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Mon-Fri: 8AM-3PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card doctor-card border-0 shadow-sm h-100">
+                        <img src="doctor 4.jpeg" class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Singh"
+                            style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Dr. Harpreet Singh</h3>
+                            <p class="text-primary mb-2">Pediatric Orthopedist</p>
+                            <p class="text-muted small">MS Orthopedics</p>
+                            <p class="mb-3"><i class="far fa-clock me-2"></i> Wed-Sat: 11AM-6PM</p>
+                            <a href="appointment.html" class="btn btn-sm btn-primary">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="doctors.html" class="btn btn-outline-primary">View All Orthopedic Surgeons</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Orthopedic Procedures -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Advanced Orthopedic Procedures</h2>
+                <p class="lead">State-of-the-art treatments for musculoskeletal conditions</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card procedure-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h3 class="h5 text-primary">Robotic Knee Replacement</h3>
+                            <p>Precision robotic-assisted surgery for partial or total knee replacement with faster recovery and better outcomes.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge bg-primary">Advanced</span>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card procedure-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h3 class="h5 text-primary">Arthroscopic Surgery</h3>
+                            <p>Minimally invasive procedure to diagnose and treat joint problems using a tiny camera and surgical tools.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge bg-primary">Minimally Invasive</span>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card procedure-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h3 class="h5 text-primary">Spinal Fusion</h3>
+                            <p>Surgical technique to join two or more vertebrae to eliminate painful motion and stabilize the spine.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge bg-primary">Specialized</span>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Contact -->
+    <section class="py-5" id="contact-ortho">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="text-primary mb-4">Contact Orthopedics Department</h2>
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="mb-4">
+                                <h4 class="h5 mb-3"><i class="fas fa-map-marker-alt text-primary me-2"></i> Location</h4>
+                                <p>3rd Floor, East Wing, CityCare Hospital</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="h5 mb-3"><i class="fas fa-phone-alt text-primary me-2"></i> Phone</h4>
+                                <p>+91 80 1234 5680 (General Inquiries)<br>+91 80 1234 5681 (Emergency Trauma Care)</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="h5 mb-3"><i class="fas fa-envelope text-primary me-2"></i> Email</h4>
+                                <p>orthopedics@citycarehospital.com</p>
+                            </div>
+                            <div>
+                                <h4 class="h5 mb-3"><i class="fas fa-clock text-primary me-2"></i> OPD Hours</h4>
+                                <p>Monday to Saturday: 8:00 AM - 8:00 PM<br>Emergency Services: 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="text-primary mb-4">Request an Appointment</h2>
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="doctor" class="form-label">Preferred Orthopedic Surgeon</label>
+                                    <select class="form-select" id="doctor">
+                                        <option value="">Any Available</option>
+                                        <option value="Dr. Priya Patel">Dr. Priya Patel</option>
+                                        <option value="Dr. Arjun Kumar">Dr. Arjun Kumar</option>
+                                        <option value="Dr. Nalini Iyer">Dr. Nalini Iyer</option>
+                                        <option value="Dr. Harpreet Singh">Dr. Harpreet Singh</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="date" class="form-label">Preferred Date</label>
+                                    <input type="date" class="form-control" id="date" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Additional Information</label>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit Request</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">CityCare Hospital</h5>
+                    <p>Providing quality healthcare services since 1990 with compassion and excellence.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="departments.html" class="text-white">Departments</a></li>
+                        <li class="mb-2"><a href="doctors.html" class="text-white">Doctors</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Departments</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="cardiology.html" class="text-white">Cardiology</a></li>
+                        <li class="mb-2"><a href="orthopedics.html" class="text-white">Orthopedics</a></li>
+                        <li class="mb-2"><a href="pediatrics.html" class="text-white">Pediatrics</a></li>
+                        <li class="mb-2"><a href="neurology.html" class="text-white">Neurology</a></li>
+                        <li class="mb-2"><a href="departments.html" class="text-white">View All</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-3"></i> 123 Health Street, Medical City</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-3"></i> +91 80 1234 5678</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-3"></i> info@citycarehospital.com</li>
+                        <li class="mb-2"><i class="fas fa-ambulance me-3"></i> Emergency: 108</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 CityCare Hospital. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by CityCare Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="shared.js"></script>
+</body>
+
+</html>
